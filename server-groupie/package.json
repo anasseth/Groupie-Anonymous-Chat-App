@@ -1,12 +1,13 @@
 {
-  "name": "Server",
+  "name": "server",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "node Server.js"
+    "start": "nodemon server.js"
   },
   "license": "MIT",
   "dependencies": {
-    "graphql-yoga": "^1.18.3"
+    "graphql-yoga": "^1.18.3",
+    "nodemon": "^2.0.4"
   }
 }
